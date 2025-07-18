@@ -6,7 +6,7 @@
   "servers": [
     {
       "id": "MonServeurForge",
-      "icon": "https://github.com/salut9030/distribution.j/icon.png",
+      "icon": "https://github.com/salut9030/distribution.j/blob/main/icon.png",
       "minecraft": {
         "version": "1.20.1",
         "modloader": {
