@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "generated": "2025-07-18T00:00:00Z"
   },
-  "mainServer": "Bopi_Parc",
+  "mainServer": "Bopi_parc",
   "servers": [
     {
       "id": "Bopi_parc",
