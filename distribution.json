@@ -1,78 +1,34 @@
 {
   "meta": {
-    "version": "1.0.0",
-    "generated": "2025-07-18T00:00:00Z"
+    "version": "1.0",
+    "description": "Distribution personnalisée pour Helios Launcher"
   },
-  "mainServer": "Bopi_parc",
+  "mainClass": "net.minecraft.client.main.Main",
+  "formatVersion": 1,
+  "name": "MonModpack",
+  "game": {
+    "version": "1.20.1",
+    "modLoader": {
+      "type": "forge",
+      "version": "47.1.44"
+    }
+  },
   "servers": [
     {
-      "id": "Bopi_parc",
-      "rawAddress": "bopi-parc.asso.st",
-      "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
-      "meta": {
-        "version": "1.20.1"
-      },
-      "versions": [
-        "1.20.1-forge"
-      ]
+      "name": "Serveur Officiel",
+      "ip": "play.tonserveur.com",
+      "port": 25565,
+      "official": true
     }
   ],
-  "modules": [
+  "components": [
     {
-      "id": "1.20.1-forge",
-      "type": "version",
-      "releaseTime": "2023-06-13T00:00:00Z",
-      "mainClass": "net.minecraft.launchwrapper.Launch",
-      "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --versionType Helios",
-      "order": 0,
-      "modules": [
-        {
-          "name": "net.minecraft",
-          "version": "1.20.1"
-        },
-        {
-          "name": "net.minecraftforge",
-          "version": "47.2.0"
-        },
-        {
-          "name": "optifine",
-          "version": "HD_U_I7",
-          "optional": true
-        }
-      ],
-      "artifactOverrides": {},
-      "libraries": [],
-      "mods": [
-        {
-          "name": "AstemirLib",
-          "id": "astemirlib",
-          "url": "https://edge.forgecdn.net/files/5014/474/astemirlib-1.20.1-2.1.2.jar"
-        },
-        {
-          "name": "The Dawn Era",
-          "id": "dawn_era",
-          "url": "https://edge.forgecdn.net/files/5027/199/the-dawn-era-1.20.1-0.1.3.jar"
-        },
-        {
-          "name": "Man of Many Planes",
-          "id": "many_planes",
-          "url": "https://edge.forgecdn.net/files/5006/493/manofmanyplanes-1.20.1-2.4.0.jar"
-        },
-        {
-          "name": "OptiFine",
-          "id": "optifine",
-          "url": "https://optifine.net/downloads/OptiFine_1.20.1_HD_U_I7.jar",
-          "optional": true
-        }
-      ],
-      "resourcepacks": [],
-      "shaderpacks": [
-        {
-          "id": "bsl_shaders",
-          "name": "BSL Shaders",
-          "url": "https://github.com/BSLS/BSL-Shaders/releases/download/v8.2.05/BSL_v8.2.05.zip"
-        }
-      ]
+      "uid": "net.minecraft",
+      "version": "1.20.1"
+    },
+    {
+      "uid": "net.minecraftforge",
+      "version": "47.1.44"
     }
   ]
 }
