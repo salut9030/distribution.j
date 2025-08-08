@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
   "discord": {
-    "clientId": "1086936373057040395",
+    "clientId": "1393555765310132294",
     "smallImageText": "Change me through Nebula",
     "smallImageKey": "big"
   },
@@ -54,4 +54,5 @@
     }
   ]
 }
+
 
