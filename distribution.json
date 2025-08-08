@@ -21,7 +21,7 @@
         "largeImageText": "forge"
       },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "astemirlib",
@@ -54,5 +54,6 @@
     }
   ]
 }
+
 
 
