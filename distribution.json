@@ -17,7 +17,7 @@
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "1.20.1 Demo",
-        "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
+        "largeImageKey": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
         "largeImageText": "forge"
       },
       "mainServer": true,
@@ -54,3 +54,4 @@
     }
   ]
 }
+
