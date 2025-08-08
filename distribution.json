@@ -9,19 +9,19 @@
   "servers": [
     {
       "id": "Demo-1.19.4",
-      "name": "Demo (Minecraft 1.19.4)",
-      "description": "Demo Running Minecraft 1.19.4 (Forge v45.0.9)",
+      "name": "Bopi Parc",
+      "description": "Ceci sont les mods de notre superbe serveur",
       "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
       "version": "1.0.0",
       "address": "serveur-all.fr.nf:25565",
-      "minecraftVersion": "1.19.4",
+      "minecraftVersion": "47.2.0",
       "discord": {
         "shortId": "1.19.4 Demo",
         "largeImageKey": "https://raw.githubusercontent.com/dscalzi/HeliosLauncher/master/build/icon.png",
-        "largeImageText": "forge-vanilla"
+        "largeImageText": "forge"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "astemirlib",
@@ -48,4 +48,5 @@
       ]    }
   ]
 }
+
 
