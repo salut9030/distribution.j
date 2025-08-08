@@ -22,51 +22,44 @@
       },
       "mainServer": true,
       "autoconnect": false,
-"modules": [
-  {
-    "id": "com.astemir:astemirlib:1.20.1-2.1.2",
-    "name": "AstemirLib",
-    "type": "Mod",
-    "classpath": true,
-    "artifact": {
-      "size": 370350,  // Remplace par la vraie taille en octets
-      "MD5": "8a38c28fda4c0f1eb4ac74cb2851245b", // Remplace par le vrai MD5
-      "url": "https://edge.forgecdn.net/files/5014/474/astemirlib-1.20.1-2.1.2.jar"
-    },
-    "subModules": []
-  },
-  {
-    "id": "com.dawnera:the-dawn-era:1.20.1-0.1.3",
-    "name": "The Dawn Era",
-    "type": "Mod",
-    "classpath": true,
-    "artifact": {
-      "size": 4068057,
-      "MD5": "75eb49b08eee90ef8cdbdc2a302f34cf",
-      "url": "https://edge.forgecdn.net/files/5027/199/the-dawn-era-1.20.1-0.1.3.jar"
-    },
-    "subModules": []
-  },
-  {
-    "id": "com.momp:man-of-many-planes:1.20.1-2.4.0",
-    "name": "Man of Many Planes",
-    "type": "Mod",
-    "classpath": true,
-    "artifact": {
-      "size": 725743,
-      "MD5": "dc2d5057c84b1a20e72bdc742598b37c",
-      "url": "https://edge.forgecdn.net/files/5006/493/manofmanyplanes-1.20.1-2.4.0.jar"
-    },
-    "subModules": []
-  }
-]
-
+      "modules": [
+        {
+          "id": "com.astemir:astemirlib:1.20.1-2.1.2",
+          "name": "AstemirLib",
+          "type": "Mod",
+          "classpath": true,
+          "artifact": {
+            "size": 370350,
+            "MD5": "8a38c28fda4c0f1eb4ac74cb2851245b",
+            "url": "https://edge.forgecdn.net/files/5014/474/astemirlib-1.20.1-2.1.2.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.dawnera:the-dawn-era:1.20.1-0.1.3",
+          "name": "The Dawn Era",
+          "type": "Mod",
+          "classpath": true,
+          "artifact": {
+            "size": 4068057,
+            "MD5": "75eb49b08eee90ef8cdbdc2a302f34cf",
+            "url": "https://edge.forgecdn.net/files/5027/199/the-dawn-era-1.20.1-0.1.3.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "com.momp:man-of-many-planes:1.20.1-2.4.0",
+          "name": "Man of Many Planes",
+          "type": "Mod",
+          "classpath": true,
+          "artifact": {
+            "size": 725743,
+            "MD5": "dc2d5057c84b1a20e72bdc742598b37c",
+            "url": "https://edge.forgecdn.net/files/5006/493/manofmanyplanes-1.20.1-2.4.0.jar"
+          },
+          "subModules": []
         }
       ]
     }
   ]
 }
-
-
-
-
