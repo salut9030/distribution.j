@@ -13,7 +13,7 @@
       "description": "Ceci sont les mods de notre superbe serveur",
       "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
       "version": "1.0.0",
-      "address": "serveur-all.fr.nf:25565",
+      "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
         "shortId": "1.20.1 Demo",
@@ -63,4 +63,5 @@
     }
   ]
 }
+
 
