@@ -31,7 +31,7 @@
           "artifact": {
             "size": 370350,
             "MD5": "8a38c28fda4c0f1eb4ac74cb2851245b",
-            "url": "https://www.curseforge.com/api/v1/mods/933306/files/5066295/download"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/astemirlib-1.20.1-1.26.jar"
           },
           "subModules": []
         },
@@ -43,7 +43,7 @@
           "artifact": {
             "size": 4068057,
             "MD5": "75eb49b08eee90ef8cdbdc2a302f34cf",
-            "url": "https://www.curseforge.com/api/v1/mods/965477/files/5054070/download"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/thedawnera-1.20.1-0.58.94.jar"
           },
           "subModules": []
         },
@@ -55,7 +55,7 @@
           "artifact": {
             "size": 725743,
             "MD5": "dc2d5057c84b1a20e72bdc742598b37c",
-            "url": "https://www.curseforge.com/api/v1/mods/984493/files/6318680/download"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/man_of_many_planes-0.2.0+1.20.1-forge.jar"
           },
           "subModules": []
         }
@@ -63,5 +63,6 @@
     }
   ]
 }
+
 
 
