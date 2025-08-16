@@ -73,9 +73,9 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "size": 2500000,
-            "MD5": "1234567890abcdef1234567890abcdef",
-            "url": "https://ton-site.com/OptiFine_1.20.1_HD_U_I5.jar"
+            "size": 7145205,
+            "MD5": "7A7982AC06B89DD8C1721EA53A33B768",
+            "url": "https://optifine.net/downloadx?f=OptiFine_1.20.1_HD_U_I6.jar&x=c1f2c57b33d30067e1c9b8f68aaa0819"
           },
           "subModules": []
         },
@@ -84,13 +84,14 @@
           "name": "BSL Shaders",
           "type": "file",
           "artifact": {
-            "size": 9876543,
-            "MD5": "abcdef1234567890abcdef1234567890",
-            "url": "https://ton-site.com/BSL_v8.2.zip",
-            "path": "shaderpacks/BSL_v8.2.zip"
+            "size": 456328,
+            "MD5": "E49C87AF1C2BB64337068F6928F06BFF",
+            "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/sAAjYvFB/ComplementaryReimagined_r5.5.1.zip",
+            "path": "/shaderpacks/ComplementaryReimagined_r5.5.1.zip"
           }
         }
       ]
     }
   ]
 }
+
