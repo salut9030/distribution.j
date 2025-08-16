@@ -82,7 +82,7 @@
         {
           "id": "shaderpack:bsl_v8.2",
           "name": "Complementary",
-          "type": "resourcepack",
+          "type": "file",
           "artifact": {
             "size": 456328,
             "MD5": "E49C87AF1C2BB64337068F6928F06BFF",
@@ -94,4 +94,3 @@
     }
   ]
 }
-
