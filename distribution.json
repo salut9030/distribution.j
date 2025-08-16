@@ -37,7 +37,7 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "size": 370350,
+            "size": 361447,
             "MD5": "8a38c28fda4c0f1eb4ac74cb2851245b",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/astemirlib-1.20.1-1.26.jar"
           },
@@ -61,7 +61,7 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "size": 725743,
+            "size": 309137,
             "MD5": "dc2d5057c84b1a20e72bdc742598b37c",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/man_of_many_planes-0.2.0+1.20.1-forge.jar"
           },
@@ -94,3 +94,4 @@
     }
   ]
 }
+
