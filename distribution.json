@@ -10,7 +10,7 @@
     {
       "id": "Demo-1.20.1",
       "name": "Bopi Parc",
-      "description": "Ceci sont les mods de notre superbe serveur",
+      "description": "Ceci sont les mods et shaders de notre superbe serveur",
       "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -24,9 +24,17 @@
       "autoconnect": false,
       "modules": [
         {
+          "id": "net.minecraftforge:forge:1.20.1-47.2.0",
+          "name": "Forge 1.20.1",
+          "type": "forge",
+          "artifact": {
+            "url": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.0/forge-1.20.1-47.2.0-installer.jar"
+          }
+        },
+        {
           "id": "com.astemir:astemirlib:1.20.1-2.1.2",
           "name": "AstemirLib",
-          "type": "Mod",
+          "type": "mod",
           "classpath": true,
           "artifact": {
             "size": 370350,
@@ -38,7 +46,7 @@
         {
           "id": "com.dawnera:the-dawn-era:1.20.1-0.1.3",
           "name": "The Dawn Era",
-          "type": "Mod",
+          "type": "mod",
           "classpath": true,
           "artifact": {
             "size": 4068057,
@@ -50,7 +58,7 @@
         {
           "id": "com.momp:man-of-many-planes:1.20.1-2.4.0",
           "name": "Man of Many Planes",
-          "type": "Mod",
+          "type": "mod",
           "classpath": true,
           "artifact": {
             "size": 725743,
@@ -58,11 +66,31 @@
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/man_of_many_planes-0.2.0+1.20.1-forge.jar"
           },
           "subModules": []
+        },
+        {
+          "id": "optifine:1.20.1_HD_U_I5",
+          "name": "OptiFine",
+          "type": "mod",
+          "classpath": true,
+          "artifact": {
+            "size": 2500000,
+            "MD5": "1234567890abcdef1234567890abcdef",
+            "url": "https://ton-site.com/OptiFine_1.20.1_HD_U_I5.jar"
+          },
+          "subModules": []
+        },
+        {
+          "id": "shaderpack:bsl_v8.2",
+          "name": "BSL Shaders",
+          "type": "file",
+          "artifact": {
+            "size": 9876543,
+            "MD5": "abcdef1234567890abcdef1234567890",
+            "url": "https://ton-site.com/BSL_v8.2.zip",
+            "path": "shaderpacks/BSL_v8.2.zip"
+          }
         }
       ]
     }
   ]
 }
-
-
-
