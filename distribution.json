@@ -75,23 +75,22 @@
           "artifact": {
             "size": 7145205,
             "MD5": "7A7982AC06B89DD8C1721EA53A33B768",
-            "url": "https://optifine.net/downloadx?f=OptiFine_1.20.1_HD_U_I6.jar&x=c1f2c57b33d30067e1c9b8f68aaa0819"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/OptiFine_1.20.1_HD_U_I6.jar"
           },
           "subModules": []
         },
         {
           "id": "shaderpack:bsl_v8.2",
-          "name": "BSL Shaders",
+          "name": "Complementary",
           "type": "file",
           "artifact": {
             "size": 456328,
             "MD5": "E49C87AF1C2BB64337068F6928F06BFF",
             "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/sAAjYvFB/ComplementaryReimagined_r5.5.1.zip",
-            "path": "/shaderpacks/ComplementaryReimagined_r5.5.1.zip"
+            "path": "shaderpacks/ComplementaryReimagined_r5.5.1.zip"
           }
         }
       ]
     }
   ]
 }
-
