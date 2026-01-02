@@ -3,30 +3,57 @@
   "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
   "discord": {
     "clientId": "1393555765310132294",
-    "smallImageText": "Serveur Vanilla",
+    "smallImageText": "Bopi-Parc",
     "smallImageKey": "grass"
   },
   "servers": [
     {
-      "id": "Bopi-Parc-1.21.10",
+      "id": "Bopi-Parc-1.21",
       "name": "Bopi-Parc",
-      "description": "Serveur Paper Vanilla 1.21.10",
+      "description": "Serveur Paper Vanilla 1.21 avec Shaders (Iris)",
       "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
       "version": "1.0.0",
       "address": "localhost:25565",
-      "minecraftVersion": "1.21.10",
+      "minecraftVersion": "1.21.1",
       "discord": {
-        "shortId": "Vanilla 1.21.10",
+        "shortId": "Paper 1.21",
         "largeImageKey": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
-        "largeImageText": "Paper Vanilla"
+        "largeImageText": "Paper + Iris Shaders"
       },
       "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraft:vanilla:1.21.10",
-          "name": "Minecraft Vanilla 1.21.10",
-          "type": "vanilla"
+          "id": "net.fabricmc:fabric-loader:0.15.11",
+          "name": "Fabric Loader",
+          "type": "fabric"
+        },
+        {
+          "id": "net.irisshaders:iris:1.7.2",
+          "name": "Iris Shaders",
+          "type": "mod",
+          "classpath": true,
+          "artifact": {
+            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/1.7.2/iris-mc1.21.1-1.7.2.jar"
+          }
+        },
+        {
+          "id": "net.caffeinemc:sodium:0.5.11",
+          "name": "Sodium",
+          "type": "mod",
+          "classpath": true,
+          "artifact": {
+            "url": "https://cdn.modrinth.com/data/AANobbMI/versions/0.5.11/sodium-fabric-mc1.21.1-0.5.11.jar"
+          }
+        },
+        {
+          "id": "shader:complementary",
+          "name": "Complementary Shaders",
+          "type": "file",
+          "artifact": {
+            "url": "https://cdn.modrinth.com/data/HVnmMxH1/versions/latest/ComplementaryReimagined.zip",
+            "path": "shaderpacks/ComplementaryReimagined.zip"
+          }
         }
       ]
     }
