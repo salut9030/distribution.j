@@ -34,7 +34,7 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/1.7.2/iris-mc1.21.1-1.7.2.jar"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric-1.8.8+mc1.21.1.jar"
           }
         },
         {
@@ -59,3 +59,4 @@
     }
   ]
 }
+
