@@ -32,6 +32,7 @@
             "size": 1050000,
             "MD5": "71003010f36f190b2d1504f95faf2cc3",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/fabric-server.jar"
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
           },
           "subModules": [
             {
@@ -42,6 +43,7 @@
                 "size": 5000,
                 "MD5": "71003010f36f190b2d1504f95faf2cc3",
                 "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/fabric-server.jar"
+                "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
               }
             }
           ]
@@ -55,6 +57,7 @@
             "size": 2024020,
             "MD5": "1179fe09b9ba970e84ed59259adfe65a",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/iris-fabric.jar"
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
           },
           "subModules": []
         },
@@ -67,6 +70,7 @@
             "size": 258742,
             "MD5": "aa37ba0048a1af6b554b137088cad484",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/sodium-fabric.jar"
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
           },
           "subModules": []
         },
@@ -87,6 +91,7 @@
     }
   ]
 }
+
 
 
 
