@@ -31,7 +31,7 @@
           "artifact": {
             "size": 1050000,
             "MD5": "71003010f36f190b2d1504f95faf2cc3",
-            "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar"
+            "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server.jar"
           },
           "subModules": [
             {
@@ -41,7 +41,7 @@
               "artifact": {
                 "size": 5000,
                 "MD5": "71003010f36f190b2d1504f95faf2cc3",
-                "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar"
+                "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server.jar"
               }
             }
           ]
@@ -54,7 +54,7 @@
           "artifact": {
             "size": 2024020,
             "MD5": "1179fe09b9ba970e84ed59259adfe65a",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric-1.8.8+mc1.21.1.jar"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric.jar"
           },
           "subModules": []
         },
@@ -66,7 +66,7 @@
           "artifact": {
             "size": 258742,
             "MD5": "aa37ba0048a1af6b554b137088cad484",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/sodium-fabric-0.6.13+mc1.21.1.jar"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/sodium-fabric.jar"
           },
           "subModules": []
         },
@@ -87,5 +87,6 @@
     }
   ]
 }
+
 
 
