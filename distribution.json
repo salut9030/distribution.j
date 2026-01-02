@@ -30,8 +30,8 @@
           "classpath": true,
           "artifact": {
             "size": 1050000,
-            "MD5": "replace_with_correct_md5",
-            "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.15.11/0.15.11/fabric-loader-0.15.11.jar"
+            "MD5": "71003010f36f190b2d1504f95faf2cc3",
+            "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar"
           },
           "subModules": [
             {
@@ -40,8 +40,8 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 5000,
-                "MD5": "replace_with_correct_md5",
-                "url": "https://meta.fabricmc.net/v2/versions/loader/1.21.1/0.15.11/0.15.11/fabric-loader-0.15.11.json"
+                "MD5": "71003010f36f190b2d1504f95faf2cc3",
+                "url": "https://github.com/salut9030/distribution.j/raw/893d969419637d68da4c48b87c5c248b271080ad/fabric-server-mc.1.21.1-loader.0.18.4-launcher.1.1.1.jar"
               }
             }
           ]
@@ -87,4 +87,5 @@
     }
   ]
 }
+
 
