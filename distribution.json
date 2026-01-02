@@ -53,7 +53,7 @@
           "classpath": true,
           "artifact": {
             "size": 2024020,
-            "MD5": "replace_with_correct_md5",
+            "MD5": "1179fe09b9ba970e84ed59259adfe65a",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric-1.8.8+mc1.21.1.jar"
           },
           "subModules": []
@@ -65,7 +65,7 @@
           "classpath": true,
           "artifact": {
             "size": 258742,
-            "MD5": "replace_with_correct_md5",
+            "MD5": "aa37ba0048a1af6b554b137088cad484",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/sodium-fabric-0.6.13+mc1.21.1.jar"
           },
           "subModules": []
@@ -77,7 +77,7 @@
           "classpath": false,
           "artifact": {
             "size": 456328,
-            "MD5": "replace_with_correct_md5",
+            "MD5": "04c822b2da584e21745869190ac653e6",
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/ComplementaryReimagined_r5.6.1.zip",
             "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
           },
@@ -87,3 +87,4 @@
     }
   ]
 }
+
