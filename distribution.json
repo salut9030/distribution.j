@@ -4,7 +4,7 @@
   "discord": {
     "clientId": "1393555765310132294",
     "smallImageText": "Bopi-Parc",
-    "smallImageKey": "grass"
+    "smallImageKey": "big"
   },
   "servers": [
     {
@@ -35,7 +35,8 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric-1.8.8+mc1.21.1.jar"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/main/iris-fabric-1.8.8+mc1.21.1.jar",
+            "size": 2024020
           }
         },
         {
@@ -44,7 +45,8 @@
           "type": "mod",
           "classpath": true,
           "artifact": {
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/sodium-fabric-0.6.13+mc1.21.1.jar"
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/sodium-fabric-0.6.13+mc1.21.1.jar",
+            "size": 258742
           }
         },
         {
@@ -53,11 +55,11 @@
           "type": "file",
           "artifact": {
             "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/ComplementaryReimagined_r5.6.1.zip",
-            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
+            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip",
+            "size": 456328
           }
         }
       ]
     }
   ]
 }
-
