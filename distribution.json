@@ -1,95 +1,69 @@
 {
   "version": "1.0.0",
-  "rss": "https://helios-files.geekcorner.eu.org/rss.xml",
+  "rss": "https://bopi-parc.is-great.net/helios-rss.xml",
   "discord": {
     "clientId": "1393555765310132294",
-    "smallImageText": "Bopi-Parc",
+    "smallImageText": "Bopi Parc le meilleur serveur.",
     "smallImageKey": "big"
   },
   "servers": [
     {
-      "id": "Bopi-Parc-1.21",
-      "name": "Bopi-Parc",
-      "description": "Serveur Paper Vanilla 1.21 avec Shaders (Iris)",
-      "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/main/icon.png",
+      "id": "Bopi-Parc-1.21.1",
+      "name": "Bopi-Parc (Minecraft 1.21.1)",
+      "description": "Bopi-Parc Running Minecraft 1.21.1 (Fabric v0.18.4)",
+      "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/c737046dde7cb586e44d1331e4464807aa621362/icon.png",
       "version": "1.0.0",
       "address": "91.197.6.19:20035",
       "minecraftVersion": "1.21.1",
       "discord": {
-        "shortId": "Paper 1.21",
-        "largeImageKey": "big",
-        "largeImageText": "Paper + Iris Shaders"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraft:client:1.21.1",
-          "name": "Minecraft",
-          "type": "Minecraft",
-          "mainClass": "net.minecraft.client.main.Main",
-          "minecraftArguments": {},
-          "libraries": []
-        },
-        {
-          "id": "net.fabricmc:fabric-loader:0.15.11",
-          "name": "Fabric Loader",
-          "type": "FabricHosted",
-          "classpath": true,
+          "id": "net.fabricmc:fabric-loader:0.18.4",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
           "artifact": {
-            "size": 1050000,
-            "MD5": "71003010f36f190b2d1504f95faf2cc3",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/fabric-server.jar",
+            "size": 1944518,
+            "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/c737046dde7cb586e44d1331e4464807aa621362/fabric-server.jar"
           },
           "subModules": [
             {
-              "id": "fabric-loader-version-1.21.1-0.15.11",
-              "name": "Fabric Loader version.json",
+              "id": "1.21.1-fabric-0.18.4",
+              "name": "Fabric (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 5000,
-                "MD5": "71003010f36f190b2d1504f95faf2cc3",
-                "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/fabric-server.jar",
+                "size": 2847,
+                "MD5": "7b16c0807efe8f3fbabbe586524f80ef",
+                "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e15e6457b8b3b39f9d3b2b9eeac0203199ad7805/1.21.1-fabric-0.18.4.json"
+              }
+            },
+            {
+              "id": "generated.fabricmod:iris:1.8.8+mc1.21.1@jar",
+              "name": "Iris",
+              "type": "FabricMod",
+              "artifact": {
+                "size": 2690177,
+                "url": "https://raw.githubusercontent.com/salut9030/distribution.j/c737046dde7cb586e44d1331e4464807aa621362/iris-fabric.jar",
+                "MD5": "1179fe09b9ba970e84ed59259adfe65a"
+              }
+            },
+            {
+              "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.1@jar",
+              "name": "Sodium",
+              "type": "FabricMod",
+              "artifact": {
+                "size": 1297761,
+                "url": "https://raw.githubusercontent.com/salut9030/distribution.j/c737046dde7cb586e44d1331e4464807aa621362/sodium-fabric.jar",
+                "MD5": "aa37ba0048a1af6b554b137088cad484"
               }
             }
           ]
-        },
-        {
-          "id": "net.irisshaders:iris:1.8.8+mc1.21.1",
-          "name": "Iris Shaders",
-          "type": "Mod",
-          "classpath": true,
-          "artifact": {
-            "size": 2024020,
-            "MD5": "1179fe09b9ba970e84ed59259adfe65a",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/iris-fabric.jar",
-          },
-          "subModules": []
-        },
-        {
-          "id": "net.caffeinemc:sodium:0.6.13+mc1.21.1",
-          "name": "Sodium",
-          "type": "Mod",
-          "classpath": true,
-          "artifact": {
-            "size": 258742,
-            "MD5": "aa37ba0048a1af6b554b137088cad484",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/e98653025443019330dcae72b94c6d7a76826184/sodium-fabric.jar",
-          },
-          "subModules": []
-        },
-        {
-          "id": "shader:complementary",
-          "name": "Complementary Shaders",
-          "type": "File",
-          "classpath": false,
-          "artifact": {
-            "size": 456328,
-            "MD5": "04c822b2da584e21745869190ac653e6",
-            "url": "https://raw.githubusercontent.com/salut9030/distribution.j/236af1c09cad13a6e2c1b8ec9f71d40ae46dc419/ComplementaryReimagined_r5.6.1.zip",
-            "path": "shaderpacks/ComplementaryReimagined_r5.6.1.zip"
-          },
-          "subModules": []
         }
       ]
     }
