@@ -17,8 +17,8 @@
       "minecraftVersion": "1.21.1",
       "discord": {
         "shortId": "bopi-parc",
-        "largeImageText": "Rejoignez Bopi Parc !",
-        "largeImageKey": "logo"
+        "largeImageText": "Bpi-Parc",
+        "largeImageKey": "icon_launcher"
       },
       "mainServer": false,
       "autoconnect": false,
