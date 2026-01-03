@@ -16,9 +16,9 @@
       "address": "91.197.6.19:20035",
       "minecraftVersion": "1.21.1",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "bopi-parc",
+        "largeImageText": "Rejoignez Bopi Parc !",
+        "largeImageKey": "logo"
       },
       "mainServer": false,
       "autoconnect": false,
