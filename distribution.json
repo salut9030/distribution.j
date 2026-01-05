@@ -3,25 +3,35 @@
   "rss": "https://bopi-parc.is-great.net/helios-rss.xml",
   "discord": {
     "clientId": "1393555765310132294",
-    "smallImageText": "Bopi Parc le meilleur serveur.",
-    "smallImageKey": "big"
+    "smallImageKey": "big",
+    "smallImageText": "Rogue - Level 100"
   },
   "servers": [
     {
       "id": "Bopi-Parc-1.21.1",
       "name": "Bopi-Parc (Minecraft 1.21.1)",
-      "description": "Bopi-Parc Running Minecraft 1.21.1 (Fabric v0.18.4)",
+      "description": "Bopi-Parc tournant sous Minecraft 1.21.1 (Fabric v0.18.4)",
       "icon": "https://raw.githubusercontent.com/salut9030/distribution.j/c737046dde7cb586e44d1331e4464807aa621362/icon.png",
       "version": "1.0.0",
       "address": "91.197.6.19:20035",
       "minecraftVersion": "1.21.1",
+
       "discord": {
         "shortId": "bopi-parc",
-        "largeImageText": "Bpi-Parc",
-        "largeImageKey": "icon_launcher"
+
+        "state": "Playing Solo",
+        "details": "Competitive",
+
+        "largeImageKey": "icon_launcher",
+        "largeImageText": "Numbani",
+
+        "smallImageKey": "big",
+        "smallImageText": "Rogue - Level 100"
       },
+
       "mainServer": false,
       "autoconnect": false,
+
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.4",
