@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://bopi-parc.is-great.net/helios-rss.xml",
+  "rss": "https://raw.githubusercontent.com/salut9030/distribution.j/refs/heads/main/rss.xml",
   "discord": {
     "clientId": "1086936373057040395",
     "smallImageText": "Change me through Nebula",
